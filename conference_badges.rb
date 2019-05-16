@@ -20,7 +20,7 @@ def assign_rooms(list)
   num = 0
 
   while num < alength
-    puts "Hello, #{list[num]}! You'll be assigned to room #{num}!"
+    arr[num] = "Hello, #{list[num]}! You'll be assigned to room #{num}!"
     num += 1
   end
   arr
