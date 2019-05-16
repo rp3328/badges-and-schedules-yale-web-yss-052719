@@ -25,7 +25,7 @@ while num < alength
 end
   arr
   list.each_with_index { |val, index|
-  puts "Hello, #{val}! You'll be assigned to room #{index}!" 
+  puts "Hello, #{val}! You'll be assigned to room #{index}!"
   if val < alength
 }
 end
