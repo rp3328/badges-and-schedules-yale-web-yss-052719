@@ -17,9 +17,9 @@ end
 def assign_rooms(list)
   arr = []
   alength = list.size
-  num = 0
+  num = 1
 
-  while num < alength
+  while num <= alength
     arr[num] = "Hello, #{list[num]}! You'll be assigned to room #{num}!"
     num += 1
   end
