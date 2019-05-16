@@ -14,5 +14,5 @@ end
 
 def assign_rooms(list)
   
-  
+
 end
