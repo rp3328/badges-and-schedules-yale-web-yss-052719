@@ -15,8 +15,10 @@ def batch_badge_creator(array)
 end
 
 def assign_rooms(list)
+  
   alength = list.size
+  
   list.each_with_index { |name, number|
-  return "Hello, #{name}! You'll be assigned to room #{number}!" if number < alength
+  puts "Hello, #{name}! You'll be assigned to room #{number}!" if number < alength
 }
 end
