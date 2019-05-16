@@ -4,10 +4,11 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(array)
+  arr = []
   alength = array.length
   num = 0
   while num < alength
-    puts badge_maker(array[num])
+    arr[num] = badge_maker(array[num])
     num += 1
   end
 end
