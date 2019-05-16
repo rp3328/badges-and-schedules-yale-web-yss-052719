@@ -11,6 +11,7 @@ def batch_badge_creator(array)
     arr[num] = badge_maker(array[num])
     num += 1
   end
+  arr
 end
 
 def assign_rooms(list)
