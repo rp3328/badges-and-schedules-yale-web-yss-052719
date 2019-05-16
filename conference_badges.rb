@@ -8,5 +8,3 @@ def batch_badge_creater(array)
     puts "Hello, my name is #{n}."
   end
 end
-
-
