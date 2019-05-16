@@ -27,7 +27,13 @@ def assign_rooms(list)
   arr
 end
 
-def printer(input)
+def printer(array)
+  alength = array.length
+  num = 0
+  while num < alength
+    puts batch_badge_creator(array)[num]
+    num += 1
+  end
   batch_badge_creator(input)
   assign_rooms(input)
 end
