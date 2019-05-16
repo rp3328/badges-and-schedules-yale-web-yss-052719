@@ -34,6 +34,10 @@ def printer(array)
     puts batch_badge_creator(array)[num]
     num += 1
   end
-  batch_badge_creator(input)
-  assign_rooms(input)
+  num = 0
+  while num < alength
+    puts assign_rooms(array)[num]
+    num += 1
+  end
+
 end
