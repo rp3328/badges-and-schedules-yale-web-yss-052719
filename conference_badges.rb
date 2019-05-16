@@ -4,7 +4,11 @@ def badge_maker(name)
 end
 
 def batch_badge_creater(array)
-  array.each do |item|
-    puts "Hello, my name is #{item}."
+
+  alength = array.size
+  num = 0
+  while alength < 0
+    puts "Hello, my name is #{array[num]}."
+    num += 1
   end
 end
