@@ -19,6 +19,6 @@ def assign_rooms(list)
   alength = list.size
 
   list.each_with_index { |val, index|
-  puts "Hello, #{val}! You'll be assigned to room #{index}!" if number < alength
+  puts "Hello, #{val}! You'll be assigned to room #{index}!" if val < alength
 }
 end
