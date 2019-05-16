@@ -19,13 +19,9 @@ def assign_rooms(list)
   alength = list.size
   num = 0
 
-while num < alength
-  puts "Hello, #{list[num]}! You'll be assigned to room #{num}!" 
-  num += 1
-end
+  while num < alength
+    puts "Hello, #{list[num]}! You'll be assigned to room #{num}!" 
+    num += 1
+  end
   arr
-  list.each_with_index { |val, index|
-  puts "Hello, #{val}! You'll be assigned to room #{index}!"
-  if val < alength
-}
 end
